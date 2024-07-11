@@ -4,9 +4,8 @@ Please make sure that you have Python 3.12.4 installed which can be installed fr
 
 The test also requires Python packages selenium version 4.22.0 and webdriver_manager version 4.0.1. If you feel comfortable, please install them yourself.
 
-Otherwise, please run 
+Otherwise, please run the provided setup.py file:
 > python setup.py
-provided.
 
 In order to run the test:
 > python fake-bar-finder.py (number_of_iterations: optional)
@@ -33,7 +32,7 @@ however, the overall improvement I would consider insignificant, but something i
 because the website uses 'coins' instead of 'gold bars', the program was written in context of 'coins'
 
 ## References:
-https://stackoverflow.com/questions/6683485/fake-coin-problem
-https://www.browserstack.com/guide/get-current-url-in-selenium-and-python
-https://www.browserstack.com/guide/ui-automation-using-python-and-selenium#:~:text=A%20Detailed%20Guide-,UI%20Testing%20with%20Selenium%20and%20Python%3A%20Example,%2Dto%2Dend%20user%20process.
-https://stackoverflow.com/questions/26566799/wait-until-page-is-loaded-with-selenium-webdriver-for-python
+- https://stackoverflow.com/questions/6683485/fake-coin-problem
+- https://www.browserstack.com/guide/get-current-url-in-selenium-and-python
+- https://www.browserstack.com/guide/ui-automation-using-python-and-selenium#:~:text=A%20Detailed%20Guide-,UI%20Testing%20with%20Selenium%20and%20Python%3A%20Example,%2Dto%2Dend%20user%20process.
+- https://stackoverflow.com/questions/26566799/wait-until-page-is-loaded-with-selenium-webdriver-for-python
